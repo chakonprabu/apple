@@ -55,7 +55,7 @@ Git Commands :
 22. git push githubrepositoryName -- This will push the code from local to git hub repository (Before
 				     pushing it will ask for authentication. Authenticate via personal token)
 
-23. git fetch origin -- will show updates available in the repository
+23. git fetch origin -- will show updates available in the repository and other information
 
 24. git pull -- Will pull latest changes from the git when changes are available otherwise will display
 		already update
@@ -79,5 +79,7 @@ to other.
 9. github is remote repository place where we will store copy of our work from local machine to github repository.
 10. Create repository in the git hub account and use that url for pushing code from local to github repository.
 11. Generate personal token from developer setting under profile and authenticate through personal token
-12.
+11.
 
+push trail
+clone update
