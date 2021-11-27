@@ -46,7 +46,9 @@ Git Commands :
 
 18. git merge doll -- will merge doll into master (first we need to checkout to master and then merge doll)
  
+19. git checkout -b apple -- will create branch apple and switching to apple branch
 
+20. 
 
 Notes :
 -------
@@ -58,9 +60,10 @@ in the git repositoty.
 3. Commits are snapshots not just changes. When ever we make commit master will point to latest commit.
 Latest commit will points to previous commit.
 4. Head is pointer of references on which branch we are on.
-5. Merge will incoporate changes of one branch to other.
+5. Merge will incoporate changes of one branch to other. fast-forward merge will copy from one branch
+to other.
 6. Sometimes when we do git log we will reach end then to return cmd press q.
-
+7. 
 
 email and password
 
