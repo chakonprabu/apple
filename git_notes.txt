@@ -41,16 +41,11 @@ Git Commands :
 16. git checkout lmn -- Will switch to the respective branch (ex : lmn). It will change head of pointing
                         to new branch, populate index with snapshot of commit we switch, copy contents
                         of directory changes)
-<<<<<<< HEAD
-
-17. 
-=======
 
 17. git branch -d apple -- will delete the branch apple
 
 18. git merge doll -- will merge doll into master (first we need to checkout to master and then merge doll)
  
->>>>>>> apple
 
 
 Notes :
@@ -64,6 +59,9 @@ in the git repositoty.
 Latest commit will points to previous commit.
 4. Head is pointer of references on which branch we are on.
 5. Merge will incoporate changes of one branch to other.
+6. Sometimes when we do git log we will reach end then to return cmd press q.
+
+
 email and password
 
 chakonprabu@gmail.com
