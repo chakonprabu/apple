@@ -27,14 +27,19 @@ Git Commands :
 11. git reset Head -- filename -- Will reset the file were unstaged (Will be reset to the previous state
                                                                      before commit)
 
-12
+12. git log -- will list all the commots made in our repository in reverse chronological order. It also
+               shows all the branches and which commots they point to.
 
 
-
-.git folder which represents our git repository has two blocks staging area and commit history. In the
-staging area kind of draft space one can add of work to stage area and then commit. Commit is version
-of project with unique hash.  
-
+Notes :
+-------
+1. .git hidden folder which represents our git repository has two blocks staging area and commit history.
+In the staging area kind of draft space one can add of work to stage area and then commit. Commit is 
+version of project with unique hash.  
+2. Branch is a point to a commit (don't compare with tree branch). master is default branch name given
+in the git repositoty.
+3. Commits are snapshots not just changes.
+4. 
 
 email and password
 
