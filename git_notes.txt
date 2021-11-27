@@ -79,10 +79,8 @@ to other.
 9. github is remote repository place where we will store copy of our work from local machine to github repository.
 10. Create repository in the git hub account and use that url for pushing code from local to github repository.
 11. Generate personal token from developer setting under profile and authenticate through personal token
-<<<<<<< HEAD
-11.
-=======
->>>>>>> 1f6139bd7a436a06becb4e75375fd8b1f98484ae
+12.
+
 
 push trail
 clone update
