@@ -48,7 +48,13 @@ Git Commands :
  
 19. git checkout -b apple -- will create branch apple and switching to apple branch
 
-20. 
+20. git merge --abort -- will stop the merge
+
+21. git clone -- will copy the repository from remote to local machine
+
+22. git push githubrepositoryName -- This will push the code from local to git hub repository (Before
+				     pushing it will ask for authentication. Authenticate via personal token)
+
 
 Notes :
 -------
@@ -63,9 +69,10 @@ Latest commit will points to previous commit.
 5. Merge will incoporate changes of one branch to other. fast-forward merge will copy from one branch
 to other.
 6. Sometimes when we do git log we will reach end then to return cmd press q.
-7. 
+7. Merge conflicts will arise different changes with branches involve merge.
+8. git is used for local repositories where we store in local machine.
+9. github is remote repository place where we will store copy of our work from local machine to github repository.
+10. Create repository in the git hub account and use that url for pushing code from local to github repository.
+11. Generate personal token from developer setting under profile and authenticate through personal token
+11.
 
-email and password
-
-chakonprabu@gmail.com
-konbu@987 
