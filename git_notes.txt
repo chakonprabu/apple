@@ -30,6 +30,20 @@ Git Commands :
 12. git log -- will list all the commots made in our repository in reverse chronological order. It also
                shows all the branches and which commots they point to.
 
+13. git cat-file -p latestGitHashcode -- will return reference of parents and tree and other info.
+	(ex: git cat-file -p 45e02444c6f62e1c605dabed28dccf343229f0f0 -- get has from git log)
+
+14. git branch - Will list all branches in repsitory and also which branch we are on by coloring in green
+                 and astrik to differentiate for the branch we are working on.
+
+15. git branch lmn -- Will create new lmn branch in the git repository.
+
+16. git checkout lmn -- Will switch to the respective branch (ex : lmn). It will change head of pointing
+                        to new branch, populate index with snapshot of commit we switch, copy contents
+                        of index to folder)
+
+
+
 
 Notes :
 -------
@@ -38,8 +52,9 @@ In the staging area kind of draft space one can add of work to stage area and th
 version of project with unique hash.  
 2. Branch is a point to a commit (don't compare with tree branch). master is default branch name given
 in the git repositoty.
-3. Commits are snapshots not just changes.
-4. 
+3. Commits are snapshots not just changes. When ever we make commit master will point to latest commit.
+Latest commit will points to previous commit.
+4. Head is pointer of references on which branch we are on.
 
 email and password
 
