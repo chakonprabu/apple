@@ -13,9 +13,21 @@ Git Commands :
 
 6. git init abc -- It will create abc directory and initialize git respository init.
 
-7. git status -- will show difference between file in folder and staging area.
+7. git status -- will show difference between files in the folder and staging area.
 
-8. 
+8. git add -- will copy the file from folder to staging area. (index file will be created in .git hidden
+                                                                 folder represents staging area)
+
+9. git add . -- wiill copy all the files from folder to staging area.
+
+10. git commit -m "message" -- It will commit in the repository (objects folder will be created in .git
+                                                                hidden folder where all our commits will
+								be stored)
+
+11. git reset Head -- filename -- Will reset the file were unstaged (Will be reset to the previous state
+                                                                     before commit)
+
+12
 
 
 
