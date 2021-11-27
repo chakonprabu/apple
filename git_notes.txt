@@ -40,9 +40,9 @@ Git Commands :
 
 16. git checkout lmn -- Will switch to the respective branch (ex : lmn). It will change head of pointing
                         to new branch, populate index with snapshot of commit we switch, copy contents
-                        of index to folder)
+                        of directory changes)
 
-
+17. 
 
 
 Notes :
