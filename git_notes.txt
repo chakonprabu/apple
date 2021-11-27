@@ -55,6 +55,11 @@ Git Commands :
 22. git push githubrepositoryName -- This will push the code from local to git hub repository (Before
 				     pushing it will ask for authentication. Authenticate via personal token)
 
+23. git fetch origin -- will show updates available in the repository
+
+24. git pull -- Will pull latest changes from the git when changes are available otherwise will display
+		already update
+
 
 Notes :
 -------
