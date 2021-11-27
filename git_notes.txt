@@ -1,0 +1,30 @@
+Git Commands :
+
+1. git config user.name -- will return user name of git available in git config file.
+
+2. git config user.email -- will return email of the user available in git config file.
+
+3. git config --global user.name abc -- will add name in git config file.
+
+4. git config --global user.email abc@abc.com -- will add email in git config file.
+
+5. git init -- will initialize git repository of the respective folder. One can see .git hidden folder
+	       after successful creation of git repository.
+
+6. git init abc -- It will create abc directory and initialize git respository init.
+
+7. git status -- will show difference between file in folder and staging area.
+
+8. 
+
+
+
+.git folder which represents our git repository has two blocks staging area and commit history. In the
+staging area kind of draft space one can add of work to stage area and then commit. Commit is version
+of project with unique hash.  
+
+
+email and password
+
+chakonprabu@gmail.com
+konbu@987 
